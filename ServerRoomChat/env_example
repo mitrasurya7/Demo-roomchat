@@ -1,0 +1,2 @@
+PORT=1212
+MONGODB_URI=mongodb://root:password@localhost:27017
