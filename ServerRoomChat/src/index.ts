@@ -5,9 +5,12 @@ import app from "./app";
 import socketHandler from "./sockets/index.socket";
 import { connectDB } from "./config/database";
 
+
 const PORT = process.env.PORT || 3001;
 
 const server = http.createServer(app);
+
+
 const io = new Server(server, {
   cors: {
     origin: "*",
