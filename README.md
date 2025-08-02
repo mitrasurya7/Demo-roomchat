@@ -168,6 +168,22 @@ MongoDB (via dokku-mongo plugin)
 
 ---
 
+## Bonus Scale app
+
+🔄 Scale Aplikasi
+Dokku memungkinkan untuk meningkatkan jumlah container (proses) dari suatu aplikasi.
+
+```
+dokku ps:scale nama-aplikasi web=2
+```
+🔁 Contoh di atas akan menjalankan 2 container untuk proses web.
+
+Cek status scale:
+
+```
+dokku ps:report nama-aplikasi
+```
+
 ## ✅ Kesimpulan
 
 Dengan panduan ini, Anda telah memiliki platform deploy ringan yang efisien, siap digunakan untuk berbagai macam aplikasi. Dokku + MongoDB adalah solusi yang elegan untuk arsitektur microservices maupun monolith.
