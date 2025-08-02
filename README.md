@@ -117,7 +117,7 @@ sudo dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git
 Aktifkan HTTPS:
 
 ```bash
-dokku letsencrypt nama-aplikasi
+dokku letsencrypt:enable nama-aplikasi
 dokku letsencrypt:cron-job --add
 ```
 
